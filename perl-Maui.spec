@@ -11,6 +11,7 @@ Group:		Development/Perl
 URL:		http://hepwww.ph.qmul.ac.uk/	
 Source:		%{name}-%{version}.tar.bz2
 BuildRequires:	perl-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The Maui Scheduler is Free Software licensed under the GNU General Public
