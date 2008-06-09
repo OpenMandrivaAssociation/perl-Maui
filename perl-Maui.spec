@@ -38,7 +38,9 @@ make PREFIX=$RPM_BUILD_ROOT%{_prefix} install DESTDIR=$RPM_BUILD_ROOT
 %clean
 rm -fr $RPM_BUILD_ROOT
 
+%if %mdkversion < 200900
 %postun -p /sbin/ldconfig
+%endif
 
 %files
 %defattr(-,root,root) 
