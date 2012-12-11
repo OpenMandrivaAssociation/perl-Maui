@@ -48,3 +48,56 @@ rm -fr $RPM_BUILD_ROOT
 %{perl_vendorlib}/*
 %{_mandir}/*/*
 
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.0.5-13mdv2012.0
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 0.0.5-12mdv2011.0
++ Revision: 556004
+- rebuild for perl 5.12
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.0.5-11mdv2010.0
++ Revision: 430502
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.0.5-10mdv2009.0
++ Revision: 257819
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.0.5-9mdv2009.0
++ Revision: 245875
+- rebuild
+
+  + Pixel <pixel@mandriva.com>
+    - do not call ldconfig in %%post/%%postun, it is now handled by filetriggers
+
+* Tue Jan 15 2008 Thierry Vignaud <tv@mandriva.org> 0.0.5-7mdv2008.1
++ Revision: 152128
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+* Sat Sep 15 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.0.5-6mdv2008.0
++ Revision: 86638
+- rebuild
+
+
+* Thu May 11 2006 Nicolas L�cureuil <neoclust@mandriva.org> 0.0.5-5mdk
+- Fix Build
+- use mkrel
+
+* Tue Nov 16 2004 Michael Scherer <misc@mandrake.org> 0.0.5-4mdk
+- Rebuild for new perl
+- fix spec
+
+* Mon Aug 18 2003 Antoine Ginies <aginies@bi.mandrakesoft.com> 0.0.5-3mdk
+- add description, buildrequires (scherer.michael@free.fr)
+
+* Wed May 28 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.0.5-2mdk
+- rebuild for new auto{prov,req}
+
