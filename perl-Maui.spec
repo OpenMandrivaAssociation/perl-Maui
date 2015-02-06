@@ -1,6 +1,6 @@
 %define name	perl-Maui
 %define version 0.0.5
-%define release 14
+%define release 15
 
 Summary:  	Perl5 modules for Maui Scheduler
 Name:		%{name}
