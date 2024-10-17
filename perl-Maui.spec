@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		Development/Perl
-URL:		http://hepwww.ph.qmul.ac.uk/	
+URL:		https://hepwww.ph.qmul.ac.uk/	
 Source:		%{name}-%{version}.tar.bz2
 BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
