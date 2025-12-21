@@ -10,6 +10,7 @@ License:	GPL
 Group:		Development/Perl
 URL:		https://hepwww.ph.qmul.ac.uk/	
 Source:		%{name}-%{version}.tar.bz2
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
